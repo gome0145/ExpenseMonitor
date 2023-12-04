@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+struct Expense: Identifiable, Codable {
+	var id = UUID()
+	var title: String
+	var amount: String
+	var category : String
+
+}

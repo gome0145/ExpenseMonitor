@@ -8,17 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+	
+	
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+		NavigationView{
+			List {
+				ForEach(viewModel.expense){ element in
+					VStack(alignment: .leading){
+						Text("\(element.title): $ \(String(element.amount))")
+						Text("Category: \(element.category)")
+							.font(.caption)
+							.foregroundStyle(Color.gray)
+					}
+					
+				}
+				.onDelete(perform: viewModel.removeExpense)
+				
+				Text("Total: \(viewModel.totalExpenses(), specifier: "%.2f")")
+			}
+			.navigationTitle("Expenses")
+			.toolbar{
+				NavigationLink("Add", destination: AddExpenseView(viewModel: viewModel, presentingModal: false))
+			}
+		}
     }
 }
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}

@@ -15,6 +15,10 @@
 		C25DFE6B2B1E79D600A904DC /* ExpenseMonitor_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE6A2B1E79D600A904DC /* ExpenseMonitor_Watch_AppTests.swift */; };
 		C25DFE752B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE742B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITests.swift */; };
 		C25DFE772B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE762B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITestsLaunchTests.swift */; };
+		C25DFE882B1E7A2100A904DC /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE872B1E7A2100A904DC /* Expense.swift */; };
+		C25DFE8A2B1E7AA500A904DC /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE892B1E7AA500A904DC /* ExpenseViewModel.swift */; };
+		C25DFE8C2B1E7D1C00A904DC /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE8B2B1E7D1C00A904DC /* AddExpenseView.swift */; };
+		C25DFE8F2B1E8DC800A904DC /* SwiftUI Apple Watch Decimal Pad in Frameworks */ = {isa = PBXBuildFile; productRef = C25DFE8E2B1E8DC800A904DC /* SwiftUI Apple Watch Decimal Pad */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,9 @@
 		C25DFE702B1E79D600A904DC /* ExpenseMonitor Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExpenseMonitor Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25DFE742B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseMonitor_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		C25DFE762B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseMonitor_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C25DFE872B1E7A2100A904DC /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		C25DFE892B1E7AA500A904DC /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		C25DFE8B2B1E7D1C00A904DC /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25DFE8F2B1E8DC800A904DC /* SwiftUI Apple Watch Decimal Pad in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +130,9 @@
 				C25DFE5B2B1E79D400A904DC /* ContentView.swift */,
 				C25DFE5D2B1E79D600A904DC /* Assets.xcassets */,
 				C25DFE5F2B1E79D600A904DC /* Preview Content */,
+				C25DFE872B1E7A2100A904DC /* Expense.swift */,
+				C25DFE892B1E7AA500A904DC /* ExpenseViewModel.swift */,
+				C25DFE8B2B1E7D1C00A904DC /* AddExpenseView.swift */,
 			);
 			path = "ExpenseMonitor Watch App";
 			sourceTree = "<group>";
@@ -184,6 +195,9 @@
 			dependencies = (
 			);
 			name = "ExpenseMonitor Watch App";
+			packageProductDependencies = (
+				C25DFE8E2B1E8DC800A904DC /* SwiftUI Apple Watch Decimal Pad */,
+			);
 			productName = "ExpenseMonitor Watch App";
 			productReference = C25DFE542B1E79D400A904DC /* ExpenseMonitor Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +273,9 @@
 				Base,
 			);
 			mainGroup = C25DFE472B1E79D400A904DC;
+			packageReferences = (
+				C25DFE8D2B1E8DC800A904DC /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */,
+			);
 			productRefGroup = C25DFE4F2B1E79D400A904DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -309,6 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25DFE882B1E7A2100A904DC /* Expense.swift in Sources */,
+				C25DFE8A2B1E7AA500A904DC /* ExpenseViewModel.swift in Sources */,
+				C25DFE8C2B1E7D1C00A904DC /* AddExpenseView.swift in Sources */,
 				C25DFE5C2B1E79D400A904DC /* ContentView.swift in Sources */,
 				C25DFE5A2B1E79D400A904DC /* ExpenseMonitorApp.swift in Sources */,
 			);
@@ -693,6 +713,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C25DFE8D2B1E8DC800A904DC /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ApplebaumIan/SwiftUI-Apple-Watch-Decimal-Pad.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C25DFE8E2B1E8DC800A904DC /* SwiftUI Apple Watch Decimal Pad */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C25DFE8D2B1E8DC800A904DC /* XCRemoteSwiftPackageReference "SwiftUI-Apple-Watch-Decimal-Pad" */;
+			productName = "SwiftUI Apple Watch Decimal Pad";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C25DFE482B1E79D400A904DC /* Project object */;
 }
