@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C25DFE552B1E79D400A904DC /* ExpenseMonitor Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C25DFE542B1E79D400A904DC /* ExpenseMonitor Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C25DFE5A2B1E79D400A904DC /* ExpenseMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE592B1E79D400A904DC /* ExpenseMonitorApp.swift */; };
+		C25DFE5C2B1E79D400A904DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE5B2B1E79D400A904DC /* ContentView.swift */; };
+		C25DFE5E2B1E79D600A904DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25DFE5D2B1E79D600A904DC /* Assets.xcassets */; };
+		C25DFE612B1E79D600A904DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25DFE602B1E79D600A904DC /* Preview Assets.xcassets */; };
+		C25DFE6B2B1E79D600A904DC /* ExpenseMonitor_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE6A2B1E79D600A904DC /* ExpenseMonitor_Watch_AppTests.swift */; };
+		C25DFE752B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE742B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITests.swift */; };
+		C25DFE772B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DFE762B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C25DFE562B1E79D400A904DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25DFE482B1E79D400A904DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25DFE532B1E79D400A904DC;
+			remoteInfo = "ExpenseMonitor Watch App";
+		};
+		C25DFE672B1E79D600A904DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25DFE482B1E79D400A904DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25DFE532B1E79D400A904DC;
+			remoteInfo = "ExpenseMonitor Watch App";
+		};
+		C25DFE712B1E79D600A904DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25DFE482B1E79D400A904DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25DFE532B1E79D400A904DC;
+			remoteInfo = "ExpenseMonitor Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C25DFE7D2B1E79D600A904DC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C25DFE552B1E79D400A904DC /* ExpenseMonitor Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C25DFE4E2B1E79D400A904DC /* ExpenseMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25DFE542B1E79D400A904DC /* ExpenseMonitor Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExpenseMonitor Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25DFE592B1E79D400A904DC /* ExpenseMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseMonitorApp.swift; sourceTree = "<group>"; };
+		C25DFE5B2B1E79D400A904DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C25DFE5D2B1E79D600A904DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C25DFE602B1E79D600A904DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C25DFE662B1E79D600A904DC /* ExpenseMonitor Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExpenseMonitor Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25DFE6A2B1E79D600A904DC /* ExpenseMonitor_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseMonitor_Watch_AppTests.swift; sourceTree = "<group>"; };
+		C25DFE702B1E79D600A904DC /* ExpenseMonitor Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExpenseMonitor Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25DFE742B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseMonitor_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		C25DFE762B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseMonitor_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C25DFE512B1E79D400A904DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25DFE632B1E79D600A904DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25DFE6D2B1E79D600A904DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C25DFE472B1E79D400A904DC = {
+			isa = PBXGroup;
+			children = (
+				C25DFE582B1E79D400A904DC /* ExpenseMonitor Watch App */,
+				C25DFE692B1E79D600A904DC /* ExpenseMonitor Watch AppTests */,
+				C25DFE732B1E79D600A904DC /* ExpenseMonitor Watch AppUITests */,
+				C25DFE4F2B1E79D400A904DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C25DFE4F2B1E79D400A904DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25DFE4E2B1E79D400A904DC /* ExpenseMonitor.app */,
+				C25DFE542B1E79D400A904DC /* ExpenseMonitor Watch App.app */,
+				C25DFE662B1E79D600A904DC /* ExpenseMonitor Watch AppTests.xctest */,
+				C25DFE702B1E79D600A904DC /* ExpenseMonitor Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C25DFE582B1E79D400A904DC /* ExpenseMonitor Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C25DFE592B1E79D400A904DC /* ExpenseMonitorApp.swift */,
+				C25DFE5B2B1E79D400A904DC /* ContentView.swift */,
+				C25DFE5D2B1E79D600A904DC /* Assets.xcassets */,
+				C25DFE5F2B1E79D600A904DC /* Preview Content */,
+			);
+			path = "ExpenseMonitor Watch App";
+			sourceTree = "<group>";
+		};
+		C25DFE5F2B1E79D600A904DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C25DFE602B1E79D600A904DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C25DFE692B1E79D600A904DC /* ExpenseMonitor Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C25DFE6A2B1E79D600A904DC /* ExpenseMonitor_Watch_AppTests.swift */,
+			);
+			path = "ExpenseMonitor Watch AppTests";
+			sourceTree = "<group>";
+		};
+		C25DFE732B1E79D600A904DC /* ExpenseMonitor Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C25DFE742B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITests.swift */,
+				C25DFE762B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ExpenseMonitor Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C25DFE4D2B1E79D400A904DC /* ExpenseMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25DFE7E2B1E79D600A904DC /* Build configuration list for PBXNativeTarget "ExpenseMonitor" */;
+			buildPhases = (
+				C25DFE4C2B1E79D400A904DC /* Resources */,
+				C25DFE7D2B1E79D600A904DC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25DFE572B1E79D400A904DC /* PBXTargetDependency */,
+			);
+			name = ExpenseMonitor;
+			productName = ExpenseMonitor;
+			productReference = C25DFE4E2B1E79D400A904DC /* ExpenseMonitor.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C25DFE532B1E79D400A904DC /* ExpenseMonitor Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25DFE7A2B1E79D600A904DC /* Build configuration list for PBXNativeTarget "ExpenseMonitor Watch App" */;
+			buildPhases = (
+				C25DFE502B1E79D400A904DC /* Sources */,
+				C25DFE512B1E79D400A904DC /* Frameworks */,
+				C25DFE522B1E79D400A904DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExpenseMonitor Watch App";
+			productName = "ExpenseMonitor Watch App";
+			productReference = C25DFE542B1E79D400A904DC /* ExpenseMonitor Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C25DFE652B1E79D600A904DC /* ExpenseMonitor Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25DFE812B1E79D600A904DC /* Build configuration list for PBXNativeTarget "ExpenseMonitor Watch AppTests" */;
+			buildPhases = (
+				C25DFE622B1E79D600A904DC /* Sources */,
+				C25DFE632B1E79D600A904DC /* Frameworks */,
+				C25DFE642B1E79D600A904DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25DFE682B1E79D600A904DC /* PBXTargetDependency */,
+			);
+			name = "ExpenseMonitor Watch AppTests";
+			productName = "ExpenseMonitor Watch AppTests";
+			productReference = C25DFE662B1E79D600A904DC /* ExpenseMonitor Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C25DFE6F2B1E79D600A904DC /* ExpenseMonitor Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25DFE842B1E79D600A904DC /* Build configuration list for PBXNativeTarget "ExpenseMonitor Watch AppUITests" */;
+			buildPhases = (
+				C25DFE6C2B1E79D600A904DC /* Sources */,
+				C25DFE6D2B1E79D600A904DC /* Frameworks */,
+				C25DFE6E2B1E79D600A904DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25DFE722B1E79D600A904DC /* PBXTargetDependency */,
+			);
+			name = "ExpenseMonitor Watch AppUITests";
+			productName = "ExpenseMonitor Watch AppUITests";
+			productReference = C25DFE702B1E79D600A904DC /* ExpenseMonitor Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25DFE482B1E79D400A904DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C25DFE4D2B1E79D400A904DC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C25DFE532B1E79D400A904DC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C25DFE652B1E79D600A904DC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C25DFE532B1E79D400A904DC;
+					};
+					C25DFE6F2B1E79D600A904DC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C25DFE532B1E79D400A904DC;
+					};
+				};
+			};
+			buildConfigurationList = C25DFE4B2B1E79D400A904DC /* Build configuration list for PBXProject "ExpenseMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C25DFE472B1E79D400A904DC;
+			productRefGroup = C25DFE4F2B1E79D400A904DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C25DFE4D2B1E79D400A904DC /* ExpenseMonitor */,
+				C25DFE532B1E79D400A904DC /* ExpenseMonitor Watch App */,
+				C25DFE652B1E79D600A904DC /* ExpenseMonitor Watch AppTests */,
+				C25DFE6F2B1E79D600A904DC /* ExpenseMonitor Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C25DFE4C2B1E79D400A904DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25DFE522B1E79D400A904DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25DFE612B1E79D600A904DC /* Preview Assets.xcassets in Resources */,
+				C25DFE5E2B1E79D600A904DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25DFE642B1E79D600A904DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25DFE6E2B1E79D600A904DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C25DFE502B1E79D400A904DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25DFE5C2B1E79D400A904DC /* ContentView.swift in Sources */,
+				C25DFE5A2B1E79D400A904DC /* ExpenseMonitorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25DFE622B1E79D600A904DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25DFE6B2B1E79D600A904DC /* ExpenseMonitor_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25DFE6C2B1E79D600A904DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25DFE772B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITestsLaunchTests.swift in Sources */,
+				C25DFE752B1E79D600A904DC /* ExpenseMonitor_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C25DFE572B1E79D400A904DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25DFE532B1E79D400A904DC /* ExpenseMonitor Watch App */;
+			targetProxy = C25DFE562B1E79D400A904DC /* PBXContainerItemProxy */;
+		};
+		C25DFE682B1E79D600A904DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25DFE532B1E79D400A904DC /* ExpenseMonitor Watch App */;
+			targetProxy = C25DFE672B1E79D600A904DC /* PBXContainerItemProxy */;
+		};
+		C25DFE722B1E79D600A904DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25DFE532B1E79D400A904DC /* ExpenseMonitor Watch App */;
+			targetProxy = C25DFE712B1E79D600A904DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C25DFE782B1E79D600A904DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C25DFE792B1E79D600A904DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C25DFE7B2B1E79D600A904DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExpenseMonitor Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpenseMonitor;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.class.ExpenseMonitor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		C25DFE7C2B1E79D600A904DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExpenseMonitor Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpenseMonitor;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.class.ExpenseMonitor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		C25DFE7F2B1E79D600A904DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpenseMonitor;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.class.ExpenseMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C25DFE802B1E79D600A904DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_KEY_CFBundleDisplayName = ExpenseMonitor;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.class.ExpenseMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25DFE822B1E79D600A904DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.ExpenseMonitor-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExpenseMonitor Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExpenseMonitor Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		C25DFE832B1E79D600A904DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.ExpenseMonitor-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExpenseMonitor Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExpenseMonitor Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		C25DFE852B1E79D600A904DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.ExpenseMonitor-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ExpenseMonitor Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		C25DFE862B1E79D600A904DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.class.ExpenseMonitor-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ExpenseMonitor Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C25DFE4B2B1E79D400A904DC /* Build configuration list for PBXProject "ExpenseMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25DFE782B1E79D600A904DC /* Debug */,
+				C25DFE792B1E79D600A904DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25DFE7A2B1E79D600A904DC /* Build configuration list for PBXNativeTarget "ExpenseMonitor Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25DFE7B2B1E79D600A904DC /* Debug */,
+				C25DFE7C2B1E79D600A904DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25DFE7E2B1E79D600A904DC /* Build configuration list for PBXNativeTarget "ExpenseMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25DFE7F2B1E79D600A904DC /* Debug */,
+				C25DFE802B1E79D600A904DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25DFE812B1E79D600A904DC /* Build configuration list for PBXNativeTarget "ExpenseMonitor Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25DFE822B1E79D600A904DC /* Debug */,
+				C25DFE832B1E79D600A904DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25DFE842B1E79D600A904DC /* Build configuration list for PBXNativeTarget "ExpenseMonitor Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25DFE852B1E79D600A904DC /* Debug */,
+				C25DFE862B1E79D600A904DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C25DFE482B1E79D400A904DC /* Project object */;
+}
