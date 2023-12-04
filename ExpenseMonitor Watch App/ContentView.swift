@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+	@ObservedObject var viewModel = ExpenseViewModel()
 	
 	
     var body: some View {
